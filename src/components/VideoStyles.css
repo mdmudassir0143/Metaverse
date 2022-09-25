@@ -44,8 +44,16 @@
 
 .hero .btn {
     margin: 1rem .2rem;
-    border-radius: 30px;
-
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.hero .btn:hover{
+    color: black;
+    background: rgb(255, 255, 255);
 }
 
 @media screen and (max-width:640px) {
